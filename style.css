@@ -485,6 +485,15 @@ nav{
     background: transparent;
     border-radius: 4px;
 }
+.refresh:hover{
+  transition: 0.3s;
+  background-color: #CFD2CF;
+}
+.refresh:active{
+  background-color: #CFD2CF;
+  transition: 0.2s;
+  transform: scale(0.9);
+}
 .footer{
     text-align: center;
     color: #9a9a9a;
@@ -527,7 +536,13 @@ nav{
 .setting-links{
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.setting-links:hover{
+  transition: 0.3s;
+  background-color: #CFD2CF;
 }
 .setting-links .setting-icon{
     width: 38px;
